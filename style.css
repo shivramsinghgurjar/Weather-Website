@@ -1,0 +1,64 @@
+.box {
+    width: 350px;
+    height: 400px;
+    /* background-color: aqua; */
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;   /* for box shadow https://getcssscan.com/css-box-shadow-examples  */
+}
+
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.header div {
+    font-size: 30px;
+}
+
+.picContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.picContainer img {
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
