@@ -3,82 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Weather Website</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="mainContainer">
-        <div class="container">
-            <div class="header">
-                <div>Weather App</div>
-                <!-- <img src="Images/background.jpeg" alt="background_img"> -->
+    <video src="Images_And_Video/background.mp4" autoplay muted loop id="background-vid"></video>
+    <div class="container">
+        <div class="box">
+            <h1>Weather Web</h1>
+            <div class="search-container">
+                <input type="text" id="cityInput" placeholder="Enter city name">
+                <button onclick="getWeather()">Get Weather</button>
             </div>
-            <div class="box">
-                <div class="picContainer">
-                    <img src="Images\cloudy.png"/>     <!-- https://www.flaticon.com/download/icon/landing/1163661?format=png&size=512&type=standard -->
-                </div>
-                <div class="inputCity">
-                    <form>
-                        <lable for="city">Select City: </lable>
-                        <select name="city" id="city" >
-                            <option>Choose the option</option>
-                            <option>Noida</option>
-                            <option>Greater Noida</option>
-                            <option>Mumbai</option>
-                            <option>Delhi</option>
-                            <option>Bangalore</option>
-                            <option>Hyderabad</option>
-                            <option>Ahmedabad</option>
-                        </select><br>
-                        <button id="inputButton">Submit</button>
-                    </form>
-                    
-                </div>
-                <div class="temperature">
-                    <h3>Temperature: 42°C</h3>
-                    <h3>Weather: Cloudy</h3>
-                    <h3>Wind Speed: 350m/s</h3>
-                </div>
+        </div>
+        <div id="weatherInfo" class="hidden">
+            <h2 id="cityName"></h2>
+            <div id="weatherDetails">
+                <p id="temperature"></p>
+                <p id="description"></p>
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- Drival for UI -->

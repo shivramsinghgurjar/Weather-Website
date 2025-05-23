@@ -1,92 +1,98 @@
-.box {
-    width: 350px;
-    height: 400px;
-    /* background-color: aqua; */
-    border-radius: 25px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;   /* for box shadow https://getcssscan.com/css-box-shadow-examples  */
-    background-color:rgb(190, 221, 225);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.mainContainer{
+body {
+    font-family: 'Teko', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url(Images/background.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    color: #ecf0f1;
 }
 
-.header {
-    display: flex;
-    justify-content: center;
+video{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center center;
 }
 
 .container {
-    display: flex;
-    gap: 20px;
-    flex-direction: column;
-}
-
-.header div {
-    font-size: 30px;
-}
-
-.picContainer {
-    display: flex;
-    justify-content: center;
-    margin-top: 25px;
-}
-
-.picContainer img {
-    /* display: flex;
-    justify-content: center;
-    flex-direction: column; */
-    width: 100px;
-    height: 100px;
-}
-
-.temperature {
     text-align: center;
-    font-size: 15px;
-    font-weight: lighter;
+    position: absolute;
 }
 
-.inputCity {
-    margin-top: 20px;
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
+h1{
+    font-size: 7rem;
+    font-weight: 700;
+    color: #3a6996;
 }
 
-#inputButton {
-    font-size: 15px;
-    margin-top: 10px;
-    border-radius: 10%;
+.box{
+    line-height: 85px;
 }
 
-#inputButton:hover {
-    color: rgb(38, 55, 184);
-    background-color: bisque;
+.search-container {
+    margin-bottom: 20px;
 }
 
+input {
+    padding: 15px 13px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3a6996;
+    color: #f9f9fc;
+    width: 300px;
+    font-size: large;
+    font-weight: 500;
+}
 
+button {
+    padding: 15px 13px;
+    cursor: pointer;
+    background-color: #3a6996;
+    color: #f9f9fc;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+    font-size: large;
+}
 
+button:hover {
+    background-color: #4d82b3;
+}
 
+#weatherInfo {
+    max-width: 400px;
+    height: 250px;
+    margin: 0 auto;
+    background-color: #3a6996;
+    padding: 20px;
+    border-radius: 10px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    font-size: x-large;
+    padding-top: 60px;
+}
 
+#weatherInfo.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
 
+#cityName {
+    font-size: 2em;
+    margin-bottom: 5px;
+}
 
+#weatherDetails p {
+    line-height: 30px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.hidden {
+    display: none;
+}
