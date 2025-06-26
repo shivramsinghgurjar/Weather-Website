@@ -108,7 +108,8 @@ const apiKey = "a1b2c3d4e5f6g7h8";
 ## 📸 Screenshots
 
 ### Main Interface  
-![App Screenshot](https://github.com/user-attachments/assets/441c164f-5a2e-4281-bbcd-90bee78a309b)
+![mainInterface](https://github.com/user-attachments/assets/bbdb566d-256a-41b9-9d89-d3e366f461c6)
+
 
 ---
 
