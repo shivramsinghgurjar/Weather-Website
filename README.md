@@ -6,7 +6,8 @@ Welcome to the **Weather Web**, a simple yet beautiful weather forecast applicat
 🚀 [Live Demo](https://shivramsinghgurjar.github.io/Weather-Website/)
 
 ![App Screenshot]
-![Uploading image.png…]()
+![App Screenshot](https://github.com/user-attachments/assets/441c164f-5a2e-4281-bbcd-90bee78a309b)
+
 
 
 ---
