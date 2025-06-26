@@ -5,7 +5,6 @@ Welcome to the **Weather Web**, a simple yet beautiful weather forecast applicat
 
 🚀 [Live Demo](https://shivramsinghgurjar.github.io/Weather-Website/)
 
-![App Screenshot]
 ![App Screenshot](https://github.com/user-attachments/assets/441c164f-5a2e-4281-bbcd-90bee78a309b)
 
 
@@ -109,7 +108,7 @@ const apiKey = "a1b2c3d4e5f6g7h8";
 ## 📸 Screenshots
 
 ### Main Interface  
-![Weather Web Interface](https://shivramsinghgurjar.github.io/Weather-Website/Images_And_Video/weather-screenshot.png)
+![App Screenshot](https://github.com/user-attachments/assets/441c164f-5a2e-4281-bbcd-90bee78a309b)
 
 ---
 
