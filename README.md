@@ -1,4 +1,3 @@
-
 # 🌦️ Weather Website
 
 Welcome to the **Weather Web**, a simple yet beautiful weather forecast application built using **HTML**, **CSS**, and **JavaScript**. It fetches real-time weather data using the **OpenWeatherMap API** and displays the temperature and description of the weather for any city entered by the user.
